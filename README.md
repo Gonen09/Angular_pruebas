@@ -2,6 +2,8 @@
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 8.3.19.
 
+El proposito de este proyecto es dominar el framework Angular y realizar distintas pruebas sobre este.
+
 ## Servidor de desarrollo
 
 Ejecute `ng serve` para iniciar el servidor de desarrollo. Navegue a `http://localhost:4200/`. La aplicación se volverá a cargar automáticamente si cambia alguno de los archivos de origen.
