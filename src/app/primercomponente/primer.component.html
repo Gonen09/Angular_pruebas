@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<p *ngIf = "activado">
+  Variable Activada
+</p>
+
+<h3>Creando un Objeto con TypeScript</h3>
+<p>Nombre: {{ name }}</p>
+<p>Edad: {{ age }} </p>
+<p>Ciudad: {{ address.city }} </p>
+<p>Dirección: {{ address.street }} </p>
+<p><strong>Pasatiempos</strong></p>
+<ul>
+  <li *ngFor="let hobby of hobbies"> 
+    {{ hobby }}
+  </li>
+</ul>

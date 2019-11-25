@@ -1,0 +1,36 @@
+<p>eventos works!</p>
+<button (click) = "decirHola('Gonzalo')">
+  presiona
+</button>
+
+<br><br>
+
+<form (submit) = "enviarDatos(nuevoUsuario)">
+  <input type="text" #nuevoUsuario>
+  <button>
+    Enviar usuario
+  </button>
+</form>
+
+<br><br>
+
+<div>
+
+  <form>
+    Nombre: <input type="text" name="nombre" [(ngModel)] = "nombre">
+    <br>
+    Edad: <input type="text" name="edad" [(ngModel)] = "edad">
+  </form>
+
+  Nombre: {{ nombre }}
+  <br>
+  Edad: {{ edad }}
+</div>
+
+<hr>
+
+<div *ngFor = "let post of posts">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.body }}</p>
+</div>
+

@@ -1,0 +1,13 @@
+<p>Ventana works!</p>
+<ol>
+  <li *ngFor="let user of users">
+    {{ user }}
+  </li>
+</ol>
+
+<h3>Lista importada</h3>
+<ul>
+  <li *ngFor="let user of users">
+    <app-segundo [nameUser] = "user"></app-segundo>
+  </li>
+</ul>
