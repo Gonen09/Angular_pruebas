@@ -14,6 +14,9 @@ Ejecute `ng generate component component-name` para generar un nuevo componente.
 
 Ejecute `ng build` para construir el proyecto. Los archivos generados se almacenarán en el directorio `dist/`. Use el indicador `--prod` para construir un proyecto para producción.
 
+El proyecto Angular se transforma a una pagina web básica (HTML + CSS + JavaScript)
+comprimida, la cual puede ser subida a un servidor.
+
 ## Ejecución de pruebas unitarias
 
 Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
@@ -22,6 +25,6 @@ Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma](https
 
 Ejecute `ng e2e` para ejecutar las pruebas de extremo a extremo a través de [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Ayuda adicional
 
 Para obtener más ayuda sobre Angular CLI, use `ng help` o visite [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
