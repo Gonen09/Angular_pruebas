@@ -15,8 +15,11 @@ import { AcercaComponent } from './acerca/acerca.component';
 import { HomeComponent } from './home/home.component';
 
 const routes : Route[] = [
-{path: '', component: HomeComponent},
-{path: 'acerca', component: AcercaComponent}
+  {path: '', component: HomeComponent},
+  {path: 'hola', component: HelloWorld},
+  {path: 'ventana', component: VentanaComponent},
+  {path: 'evento', component: EventosComponent},
+  {path: 'acerca', component: AcercaComponent}
 ];
 
 @NgModule({
